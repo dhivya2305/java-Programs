@@ -6,7 +6,7 @@ public class Main
 	    Scanner sc=new Scanner(System.in);
 	    String s=sc.nextLine();
 	    int age=sc.nextInt();
-	    if(s=="Female"){
+	    if(s.equals("Female"){
 	        if(age>0 && age<=58){
 	            System.out.println("8.2%");
 	        }
